@@ -1,0 +1,42 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Model and experiment artifacts
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+checkpoints/
+data/
+datasets/
+results/
+outputs/
+logs/
+
+# Private provenance and machine-local material
+private/
+local-only/
+*.private.md
+*.local.json
+
+# Paper build products
+paper/build/
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
