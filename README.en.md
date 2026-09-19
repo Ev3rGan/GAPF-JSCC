@@ -2,7 +2,7 @@
 
 [简体中文](README.md) | [English](README.en.md)
 
-> **Private research companion.** The initial content has been approved for private archival and development. It is not a public release or a complete reproduction package.
+> **Public research companion.** This repository documents the GAPF-JSCC problem formulation, method lineage, evidence boundaries, and selected manuscript-support materials. It is intended for method understanding and is not a complete training or end-to-end reproduction package.
 
 GAPF-JSCC studies perceptually faithful wireless image reconstruction by combining generator-native latent transmission with an anchor-constrained frozen generative prior:
 
@@ -17,7 +17,7 @@ The authoritative documentation is written in Chinese to preserve the full probl
 |---|---|---|
 | GLINT | Stage-1 formal evidence is closed at the selected operating points | The audited generator-native anchor improves over the formal DNLT comparator; stronger causal attribution remains bounded |
 | GAPF architecture | Final training graph and component responsibilities are frozen | The implementation includes trajectory evidence injection and a bounded terminal action around a frozen prior |
-| GAPF end-to-end evaluation | Complete formal evaluation remains pending | No final superiority claim against all matched baselines |
+| GAPF end-to-end evaluation | System-level results and a qualitative comparison are included in the working manuscript; the repository claim ledger still requires synchronization | The final paper and refreshed ledger control the claims; this release adds no per-component attribution or universal metric-dominance claim |
 | Minimal code | Release boundary defined; extraction pending | No weights, full recipe, private data pipeline, or formal evaluator |
 
 ## Reading map
@@ -35,4 +35,4 @@ The authoritative documentation is written in Chinese to preserve the full probl
 
 The repository will not include model weights, private or complete data pipelines, critical unpublished training presets, full orchestration, the formal evaluator, raw experiment logs, or vendored third-party papers and upstream source. Minimal code will be extracted from the real frozen implementation after provenance and licensing review.
 
-The repository remains private until formal evaluation, manuscript fields, rights review, and final public-release approval are complete.
+The repository is public. Selected manuscript-writing and notation documents are available under [`paper/`](paper/README.md); the working TeX, PDFs, figures, and internal revision records are not part of the public release.
